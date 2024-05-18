@@ -1,0 +1,68 @@
+﻿<Page x:Class="Calendar.View.DayPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Calendar.View"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="DayPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        
+        <local:InDayCheckBox x:Name="_0InDayCheckBox" Margin="5"/>
+        <local:InDayCheckBox x:Name="_1InDayCheckBox" Grid.Row="1" Margin="5"/>
+        <local:InDayCheckBox x:Name="_2InDayCheckBox" Grid.Row="2" Margin="5"/>
+        <local:InDayCheckBox x:Name="_3InDayCheckBox" Grid.Row="3" Margin="5"/>
+        <local:InDayCheckBox x:Name="_4InDayCheckBox" Grid.Row="4" Margin="5"/>
+        <local:InDayCheckBox x:Name="_5InDayCheckBox" Grid.Row="5" Margin="5"/>
+        <local:InDayCheckBox x:Name="_6InDayCheckBox" Grid.Row="6" Margin="5"/>
+
+        <!--<Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <CheckBox HorizontalAlignment="Center" VerticalAlignment="Center" Margin="5"/>
+        <CheckBox HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Margin="5"/>
+        <CheckBox HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2" Margin="5"/>
+        <CheckBox HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="3" Margin="5"/>
+        <CheckBox HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="4" Margin="5"/>
+        <CheckBox HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="5" Margin="5"/>
+        <CheckBox HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="6" Margin="5"/>
+
+        <Label Content="Бег 100 метров" FontSize="18" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="2" FontFamily="Cascadia Code SemiBold" Margin="5"/>
+        <Label Content="Бег 1 километр" FontSize="18" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Grid.Column="2" FontFamily="Cascadia Code SemiBold" Margin="5"/>
+        <Label Content="Отжимания"      FontSize="18" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2" Grid.Column="2" FontFamily="Cascadia Code SemiBold" Margin="5"/>
+        <Label Content="Подтягивания"   FontSize="18" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="3" Grid.Column="2" FontFamily="Cascadia Code SemiBold" Margin="5"/>
+        <Label Content="Приседания "    FontSize="18" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="4" Grid.Column="2" FontFamily="Cascadia Code SemiBold" Margin="5"/>
+        <Label Content="Растяжка"       FontSize="18" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="5" Grid.Column="2" FontFamily="Cascadia Code SemiBold" Margin="5"/>
+        <Label Content="Пресс"          FontSize="18" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="6" Grid.Column="2" FontFamily="Cascadia Code SemiBold" Margin="5"/>
+
+        <Image Source="/Images/бег 100 м.png"  Grid.Column="1" Margin="5"/>
+        <Image Source="/Images/бег 1км.png"  Grid.Row="1" Grid.Column="1" Margin="5"/>
+        <Image Source="/Images/отжимания.png"  Grid.Row="2" Grid.Column="1" Margin="5"/>
+        <Image Source="/Images/подтягивания.png"  Grid.Row="3" Grid.Column="1" Margin="5"/>
+        <Image Source="/Images/приседания.png"  Grid.Row="4" Grid.Column="1" Margin="5"/>
+        <Image Source="/Images/растяжка.png"  Grid.Row="5" Grid.Column="1" Margin="5"/>
+        <Image Source="/Images/пресс.png"  Grid.Row="6" Grid.Column="1" Margin="5"/>-->
+    </Grid>
+</Page>
